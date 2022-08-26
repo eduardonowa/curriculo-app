@@ -1,0 +1,15 @@
+.quali-container {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  h3 {
+    @media (max-width: 500px) {
+      font-size: 1em;
+    }
+  }
+  .list {
+    @media (max-width: 500px) {
+      font-size: 0.9em;
+    }
+  }
+}

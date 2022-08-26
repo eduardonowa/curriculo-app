@@ -1,0 +1,9 @@
+.header {
+  margin: 40px 50px;
+
+  h1 {
+    @media (max-width: 500px) {
+      font-size: 1.5em;
+    }
+  }
+}
