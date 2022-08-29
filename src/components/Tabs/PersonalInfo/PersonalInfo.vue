@@ -27,7 +27,6 @@
         class="formations"
         v-for="(formation, index) in formations"
         :key="index"
-
       >
         <p>
           {{ formation.graduation }} - {{ formation.institution }} -

@@ -33,7 +33,7 @@ export default {
           company: "Compass.UOL",
           description:
             "Bolsa de estudos voltada para a execução de projetos com a plataforma AEM utilizando Vue.js",
-            imgSrc: "arrow-down.png"
+          imgSrc: "arrow-down.png"
         },
         {
           id: "civil_eng",
@@ -42,7 +42,7 @@ export default {
           company: "NG Engenharia",
           description:
             "Projetos arquitetônicos, estruturais, elétricos e hidrossanitários; Parcelamentos de solo; Regularizações; Acompanhamento de execução em todas etapas da obra; Avaliação de imóveis",
-            imgSrc: "arrow-down.png"
+          imgSrc: "arrow-down.png"
         },
         {
           id: "intern_1",
@@ -51,7 +51,7 @@ export default {
           company: "Prefeitura Municipal de Marcelino Ramos",
           description:
             "Análise de projetos e documentações para aprovação; Expedição de certidões; Elaboração de projetos; Acompanhamento de obras públicas, tanto na área de construção civil quanto pavimentação",
-            imgSrc: "arrow-down.png"
+          imgSrc: "arrow-down.png"
         },
         {
           id: "intern_2",
@@ -60,7 +60,7 @@ export default {
           company: "Traçado Construções e Serviços LTDA",
           description:
             "Controle de produção, material e mão de obra de obras rodoviárias; Busca de soluções para otimização da produção das obras",
-            imgSrc: "arrow-down.png"
+          imgSrc: "arrow-down.png"
         },
       ],
       showDescription: [],
