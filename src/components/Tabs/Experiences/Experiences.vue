@@ -11,7 +11,7 @@
         />
       </h3>
       <div class="description" v-if="showDescription.includes(experience.id)">
-        <p style="font-weight:600">{{ experience.company }}.</p>
+        <p  class="company-name">{{ experience.company }}.</p>
         <p>Cargo: {{ experience.job }}.</p>
         <p>Principais atividades: {{ experience.description }}.</p>
       </div>

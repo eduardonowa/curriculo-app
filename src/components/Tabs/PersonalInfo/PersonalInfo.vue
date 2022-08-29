@@ -2,20 +2,24 @@
   <div class="info-container">
     <div class="data">
       <h3>{{ infos.name }}</h3>
-      <p>
-        {{ infos.naturality + "," }} {{ infos.civilState + "," }}
-        {{ infos.age }} anos
-      </p>
-      <p>{{ infos.street + "," }} {{ infos.nro }}</p>
-      <p>{{ infos.city + "," }} {{ infos.state }}</p>
-      <p>Tel/WhatsApp: {{ infos.phone }}</p>
-      <p>E-mail: {{ infos.email }}</p>
+      <div class="infos">
+        <p>
+          {{ infos.naturality + "," }} {{ infos.civilState + "," }}
+          {{ infos.age }} anos
+        </p>
+        <p>{{ infos.street + "," }} {{ infos.nro }}</p>
+        <p>{{ infos.city + "," }} {{ infos.state }}</p>
+        <p>Tel/WhatsApp: {{ infos.phone }}</p>
+        <p>E-mail: {{ infos.email }}</p>
+      </div>
     </div>
     <div class="about">
       <h3>{{ about.title }}</h3>
-      <p>
-        {{ about.text }}
-      </p>
+      <div>
+        <p class="about-text">
+          {{ about.text }}
+        </p>
+      </div>
     </div>
     <div class="formation">
       <h3>Formação Acadêmica</h3>
@@ -23,6 +27,7 @@
         class="formations"
         v-for="(formation, index) in formations"
         :key="index"
+
       >
         <p>
           {{ formation.graduation }} - {{ formation.institution }} -
