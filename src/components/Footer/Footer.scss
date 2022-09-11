@@ -5,7 +5,14 @@
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   margin-top: 20px;
-  @media (max-width: 622px) {
+  @media (max-width: 315px) {
+    position: static;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    transform: translateX(0);
+  }
+  @media (max-height: 850px) {
     position: static;
     display: flex;
     justify-content: center;

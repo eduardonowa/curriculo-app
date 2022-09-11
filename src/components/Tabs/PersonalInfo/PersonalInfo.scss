@@ -13,12 +13,32 @@
     }
   }
 
-  .data {
+  .dataPhoto-container {
     display: flex;
-    flex-flow: column wrap;
-    gap: 2px;
-    .infos {
-      margin-left: 20px;
+    flex-flow: row;
+
+    .data {
+      width: 70%;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 2px;
+      .infos {
+        margin-left: 20px;
+      }
+    }
+    .photo {
+      width: 30%;
+      @media (max-width: 768px) {
+        display: none;
+      }
+      img {
+        box-shadow: 5px 5px 10px #111111;
+        scale: 0.9;
+        transition: all ease 0.5s;
+        &:hover {
+          scale: 1;
+        }
+      }
     }
   }
   .formation {
