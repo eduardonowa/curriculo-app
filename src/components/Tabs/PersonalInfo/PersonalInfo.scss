@@ -2,6 +2,10 @@
   display: flex;
   flex-flow: column wrap;
   gap: 40px;
+  @media (max-width: 900px) {
+    gap: 30px;
+  }
+
   p {
     @media (max-width: 500px) {
       font-size: 0.9em;
@@ -22,6 +26,9 @@
       display: flex;
       flex-flow: column wrap;
       gap: 2px;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
       .infos {
         margin-left: 20px;
       }
