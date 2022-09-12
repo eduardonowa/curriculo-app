@@ -1,5 +1,8 @@
 # projeto-integrador
 
+![layout](https://user-images.githubusercontent.com/106191555/189730596-c18c7ffe-c7ac-4993-a99d-c8aafd21c7b6.jpg)
+
+
 ## Project setup
 ```
 npm install
